@@ -56,7 +56,7 @@ namespace NeuroNetTest
             List<double> signal = new List<double>();
             signal.AddRange(new double[] { 2, 5 });
             net.SetSignal(signal);
-            net.CreateInputLayer();
+            net.CreateInputLayer(2);
 
         }
     }

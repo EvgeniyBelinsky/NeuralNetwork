@@ -29,7 +29,7 @@ namespace Belinskiy.NeuroNet
 
         public  double GetSignal()
         {
-            return signal;
+            return signal * weight;
         }
 
     }
@@ -41,7 +41,6 @@ namespace Belinskiy.NeuroNet
         
         public List<Synapse> inputs;
         public List<Synapse> outputs;
-        private double activationPotential;
         private double shift;
         private Function activationFunction;
 
@@ -75,11 +74,11 @@ namespace Belinskiy.NeuroNet
 
         public double GetActivationPotential()
         {
-            double adder = 0; // сумматор нейрона
+            double activationPotential = 0; 
 
             foreach(Synapse input in inputs)
             {
-                adder += input.GetSignal() * input.GetWeight();
+                activationPotential += input.GetSignal();
             }
 
             activationPotential += shift;
@@ -98,10 +97,7 @@ namespace Belinskiy.NeuroNet
             Synapse newSynapse = new Synapse();
             newSynapse.From = this;
             newSynapse.To = neuron;
-
-            newSynapse.SetWeight(weight);
-            newSynapse.SetSignal(signal);
-
+            
             outputs.Add(newSynapse);
             neuron.inputs.Add(newSynapse);
         }
@@ -120,7 +116,7 @@ namespace Belinskiy.NeuroNet
         {
             this.neurons = neurons;
         }
-        public void AddNeurons(Neuron neuron)
+        public void AddNeuron(Neuron neuron)
         {
             neurons.Add(neuron);
         }
@@ -142,14 +138,12 @@ namespace Belinskiy.NeuroNet
     {
         public NeuronLayer inputLayer = new NeuronLayer();
         public NeuronLayer outputLayer = new NeuronLayer();
-        public List<NeuronLayer> hiddenLayers;
+        public List<NeuronLayer> hiddenLayers = new List<NeuronLayer>();
 
-        private List<double> signal;
+        private List<double> signal = new List<double>();
         
         public NeuronNetwork()
         {
-            hiddenLayers = new List<NeuronLayer>();
-            signal = new List<double>();
         }
         public  void SetSignal(List<double> inputSignal)
         {
@@ -161,19 +155,18 @@ namespace Belinskiy.NeuroNet
             return signal;
         }
         
-        public NeuronLayer CreateInputLayer()
+        public NeuronLayer CreateInputLayer(int countNeurons)
         {
-            List<Neuron> inputNeurons = new List<Neuron>(signal.Count);
-            List<Synapse> inputSynapse = new List<Synapse>(signal.Count);
+            List<Neuron> inputNeurons = new List<Neuron>();
+            List<Synapse> inputSynapse = new List<Synapse>();
             
             Random rand = new Random();
 
-            for (int i = 0; i < inputSynapse.Capacity; i++ )
+            for (int i = 0; i < countNeurons; i++ )
             {
-                inputSynapse.Add(new Synapse());                
-                inputSynapse[i].SetSignal(signal[i]);
-
+                inputSynapse.Add(new Synapse());          
                 inputNeurons.Add(new Neuron());
+
                 inputSynapse[i].To = inputNeurons[i];
                 inputNeurons[i].AddInput(inputSynapse[i]);
             }
@@ -185,18 +178,20 @@ namespace Belinskiy.NeuroNet
 
         public NeuronLayer CreateOutputLayer(int countNeuron)
         {
-            List<Neuron> outputNeurons = new List<Neuron>();
-            List<Synapse> outputSynapse = new List<Synapse>();
+            Neuron outputNeuron = null;
+            Synapse outputSynapse = null;
 
             for (int i = 0; i < countNeuron; i++ )
             {
-                outputNeurons.Add(new Neuron());
-                outputSynapse.Add(new Synapse());
-                outputSynapse[i].From = outputNeurons[i];
-                outputNeurons[i].AddOutput(outputSynapse[i]);
+                outputNeuron = new Neuron();
+                outputSynapse = new Synapse();
+
+                outputSynapse.From = outputNeuron;
+                outputNeuron.AddOutput(outputSynapse);
+
+                outputLayer.AddNeuron(outputNeuron);
             }
 
-            outputLayer.AddNeurons(outputNeurons);
 
             return outputLayer;
         }
@@ -254,26 +249,12 @@ namespace Belinskiy.NeuroNet
 
         }
 
-        public abstract class NeuroNetworkConstructor
+        public struct NeuronNetworkArchitecture
         {
-            public NeuroNetworkConstructor()
-            {
-                
-            }
-
-            private int countInputNeurons = 0;
-            private int countOutputNeurons = 0;
-            private int countHiddenLayers = 0;
-            private int countNeuronsInLayer = 0;
-
-            protected NeuronNetwork network = new NeuronNetwork();
-
-            protected NeuronLayer inputLayer = new NeuronLayer();
-            protected NeuronLayer outputLayer = new NeuronLayer();
-
-            protected List<double> inputSignal = new List<double>();
-
-            protected Function activationFunction;
+            private int countInputNeurons;
+            private int countOutputNeurons;
+            private int countHiddenLayers;
+            private int countNeuronsInLayer;
 
             public int CountInputNeurons
             {
@@ -322,8 +303,26 @@ namespace Belinskiy.NeuroNet
                     return countNeuronsInLayer;
                 }
             }
+        }
 
-            public virtual void Create(List<double> signal)
+        public abstract class NeuroNetworkConstructor
+        {
+            public NeuroNetworkConstructor()
+            {
+            }
+
+            protected NeuronNetwork network = new NeuronNetwork();
+
+            protected NeuronLayer inputLayer = new NeuronLayer();
+            protected NeuronLayer outputLayer = new NeuronLayer();
+
+            protected List<double> inputSignal = new List<double>();
+
+            protected Function activationFunction;
+
+            
+
+            public virtual void Create(List<double> signal, NeuronNetworkArchitecture architecture)
             {
 
             }
@@ -334,20 +333,21 @@ namespace Belinskiy.NeuroNet
             public PerceptronConstructor()
             {                
             }
-            public override void Create(List<double> signal)
+            public override void Create(List<double> signal, NeuronNetworkArchitecture architecture)
             {              
                 network.SetSignal(signal);
-                if (signal.Count > 0)
+
+                if (architecture.CountInputNeurons > 0)
                 {
-                    inputLayer = network.CreateInputLayer();
+                    inputLayer = network.CreateInputLayer(2);
                 }
                 else
                 {
-                    throw new Exception("Неправильный входной сигнал");
+                    throw new Exception("Не задано количество входных нейронов");
                 }
-                if (CountOutputNeurons > 0)
+                if (architecture.CountOutputNeurons > 0)
                 {
-                    outputLayer = network.CreateOutputLayer(CountOutputNeurons);
+                    outputLayer = network.CreateOutputLayer(architecture.CountOutputNeurons);
                 }
                 else
                 {
