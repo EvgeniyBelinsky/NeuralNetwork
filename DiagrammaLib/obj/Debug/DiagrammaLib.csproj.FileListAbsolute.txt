@@ -1,0 +1,8 @@
+C:\Users\Славик\Desktop\NeuroNet\DiagrammaLib\bin\Debug\DiagrammaLib.dll
+C:\Users\Славик\Desktop\NeuroNet\DiagrammaLib\bin\Debug\DiagrammaLib.pdb
+C:\Users\Славик\Desktop\NeuroNet\DiagrammaLib\obj\Debug\DiagrammaLib.dll
+C:\Users\Славик\Desktop\NeuroNet\DiagrammaLib\obj\Debug\DiagrammaLib.pdb
+F:\NeuroNet\DiagrammaLib\bin\Debug\DiagrammaLib.dll
+F:\NeuroNet\DiagrammaLib\bin\Debug\DiagrammaLib.pdb
+F:\NeuroNet\DiagrammaLib\obj\Debug\DiagrammaLib.dll
+F:\NeuroNet\DiagrammaLib\obj\Debug\DiagrammaLib.pdb

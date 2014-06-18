@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///F:/PROGRAMS/VISUAL STUDIO 13/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2014-06-15T09:07:20" Importance="High" Text="Запущено создание кода или преобразование текста." />
+  <Message Timestamp="2014-06-15T09:07:20" Importance="Diagnostic" Text="Имя = ClassTemplate" />
+  <Message Timestamp="2014-06-15T09:07:20" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2014-06-15T09:07:20" Importance="Diagnostic" Text="ProjectPath = ..\NeuroNetDiagramsUMLLib\NeuroNetDiagramsUMLLib.csproj" />
+  <Message Timestamp="2014-06-15T09:07:20" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2014-06-15T09:07:20" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2014-06-15T09:07:20" Importance="Diagnostic" Text="TemplateFilePath = F:\PROGRAMS\VISUAL STUDIO 13\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-06-15T09:07:20" Importance="Diagnostic" Text="ResolvedTemplateFilePath = F:\PROGRAMS\VISUAL STUDIO 13\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-06-15T09:07:21" Importance="Medium" Text="Привязка шаблона текста, принадлежащая NeuroNetDiagramsUML: &quot;ClassTemplate&quot; применит ClassTemplate.t4 к: &quot;NeuroNetDiagramsUML::Belinskiy.NeuroNet::NeuronNetwork&quot; -  (Class) " />
+  <Message Timestamp="2014-06-15T09:07:33" Importance="Medium" Text="&quot;NeuroNetDiagramsUML::Belinskiy.NeuroNet::NeuronNetwork&quot; -  (Class) : успешно (файл заменен) - C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetDiagramsUMLLib\GeneratedCode\Belinskiy.NeuroNet\NeuronNetwork.cs" />
+  <Message Timestamp="2014-06-15T09:07:33" Importance="Diagnostic" Text="Имя = StructTemplate" />
+  <Message Timestamp="2014-06-15T09:07:33" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2014-06-15T09:07:33" Importance="Diagnostic" Text="ProjectPath = ..\NeuroNetDiagramsUMLLib\NeuroNetDiagramsUMLLib.csproj" />
+  <Message Timestamp="2014-06-15T09:07:33" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2014-06-15T09:07:33" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2014-06-15T09:07:33" Importance="Diagnostic" Text="TemplateFilePath = F:\PROGRAMS\VISUAL STUDIO 13\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2014-06-15T09:07:33" Importance="Diagnostic" Text="ResolvedTemplateFilePath = F:\PROGRAMS\VISUAL STUDIO 13\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2014-06-15T09:07:33" Importance="Medium" Text="Привязка шаблона текста, принадлежащая NeuroNetDiagramsUML: &quot;StructTemplate&quot; применит StructTemplate.t4 к: &quot;NeuroNetDiagramsUML::Belinskiy.NeuroNet::NeuronNetwork&quot; -  (Class) " />
+  <Message Timestamp="2014-06-15T09:07:34" Importance="Diagnostic" Text="&quot;NeuroNetDiagramsUML::Belinskiy.NeuroNet::NeuronNetwork&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2014-06-15T09:07:34" Importance="High" Text="Создание кода завершено. Ошибок: 0. Предупреждений: 0." />
+</Log>

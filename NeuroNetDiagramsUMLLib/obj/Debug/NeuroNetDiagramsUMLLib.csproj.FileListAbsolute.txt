@@ -1,0 +1,15 @@
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetDiagramsUMLLib\bin\Debug\NeuroNetDiagramsUMLLib.dll
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetDiagramsUMLLib\bin\Debug\NeuroNetDiagramsUMLLib.pdb
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.dll
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.pdb
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.csprojResolveAssemblyReference.cache
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetDiagramsUMLLib\bin\Debug\NeuroNetDiagramsUMLLib.dll
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetDiagramsUMLLib\bin\Debug\NeuroNetDiagramsUMLLib.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.csprojResolveAssemblyReference.cache
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.dll
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.pdb
+F:\NeuroNet\NeuroNetDiagramsUMLLib\bin\Debug\NeuroNetDiagramsUMLLib.dll
+F:\NeuroNet\NeuroNetDiagramsUMLLib\bin\Debug\NeuroNetDiagramsUMLLib.pdb
+F:\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.dll
+F:\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.pdb
+F:\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.csprojResolveAssemblyReference.cache

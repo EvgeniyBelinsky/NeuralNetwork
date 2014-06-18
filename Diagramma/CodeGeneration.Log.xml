@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="High" Text="Запущено создание кода или преобразование текста." />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="Имя = ClassTemplate" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="ProjectPath = ..\DiagrammaLib\DiagrammaLib.csproj" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Medium" Text="Привязка шаблона текста, принадлежащая Diagramma: &quot;ClassTemplate&quot; применит ClassTemplate.t4 к: &quot;Diagramma::StudyAlgorithm&quot; -  (Class), &quot;Diagramma::StudyWithTeacher&quot; -  (Class), &quot;Diagramma::StudyWithoutTeacher&quot; -  (Class), &quot;Diagramma::BackPropagation1&quot; -  (Class), &quot;Diagramma::BackPropagation2&quot; -  (Class) " />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Medium" Text="&quot;Diagramma::StudyAlgorithm&quot; -  (Class) : успешно (файл создан) - C:\Users\Славик\Desktop\NeuroNet\DiagrammaLib\GeneratedCode\StudyAlgorithm.cs" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Medium" Text="&quot;Diagramma::StudyWithTeacher&quot; -  (Class) : успешно (файл создан) - C:\Users\Славик\Desktop\NeuroNet\DiagrammaLib\GeneratedCode\StudyWithTeacher.cs" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Medium" Text="&quot;Diagramma::StudyWithoutTeacher&quot; -  (Class) : успешно (файл создан) - C:\Users\Славик\Desktop\NeuroNet\DiagrammaLib\GeneratedCode\StudyWithoutTeacher.cs" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Medium" Text="&quot;Diagramma::BackPropagation1&quot; -  (Class) : успешно (файл создан) - C:\Users\Славик\Desktop\NeuroNet\DiagrammaLib\GeneratedCode\BackPropagation1.cs" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Medium" Text="&quot;Diagramma::BackPropagation2&quot; -  (Class) : успешно (файл создан) - C:\Users\Славик\Desktop\NeuroNet\DiagrammaLib\GeneratedCode\BackPropagation2.cs" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="Имя = StructTemplate" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="ProjectPath = ..\DiagrammaLib\DiagrammaLib.csproj" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Medium" Text="Привязка шаблона текста, принадлежащая Diagramma: &quot;StructTemplate&quot; применит StructTemplate.t4 к: &quot;Diagramma::StudyAlgorithm&quot; -  (Class), &quot;Diagramma::StudyWithTeacher&quot; -  (Class), &quot;Diagramma::StudyWithoutTeacher&quot; -  (Class), &quot;Diagramma::BackPropagation1&quot; -  (Class), &quot;Diagramma::BackPropagation2&quot; -  (Class) " />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="&quot;Diagramma::StudyAlgorithm&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2014-06-17T12:47:27" Importance="Diagnostic" Text="&quot;Diagramma::StudyWithTeacher&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2014-06-17T12:47:28" Importance="Diagnostic" Text="&quot;Diagramma::StudyWithoutTeacher&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2014-06-17T12:47:28" Importance="Diagnostic" Text="&quot;Diagramma::BackPropagation1&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2014-06-17T12:47:28" Importance="Diagnostic" Text="&quot;Diagramma::BackPropagation2&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2014-06-17T12:47:28" Importance="Diagnostic" Text="Выбрано 4 элементов, не связанных с шаблоном." />
+  <Message Timestamp="2014-06-17T12:47:28" Importance="Diagnostic" Text="&quot;981e3523-24e6-42c4-923a-5fc0fa4f0f56&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2014-06-17T12:47:28" Importance="Diagnostic" Text="&quot;8d15306f-b91c-4fbd-a35b-f8a6c8acc74d&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2014-06-17T12:47:28" Importance="Diagnostic" Text="&quot;1a32f75e-3529-4a4c-a19e-d2967132309a&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2014-06-17T12:47:28" Importance="Diagnostic" Text="&quot;76a6eb25-9819-4a62-b894-672e9905e6da&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2014-06-17T12:47:28" Importance="High" Text="Создание кода завершено. Ошибок: 0. Предупреждений: 0." />
+</Log>

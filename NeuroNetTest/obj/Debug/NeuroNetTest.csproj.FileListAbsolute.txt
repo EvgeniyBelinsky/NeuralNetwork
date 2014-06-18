@@ -1,0 +1,31 @@
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetTest\bin\Debug\NeuroNetTest.dll
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetTest\bin\Debug\NeuroNetTest.pdb
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetTest\bin\Debug\NeuroNet.exe
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetTest\bin\Debug\NeuroNet.pdb
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetTest\obj\Debug\NeuroNetTest.csprojResolveAssemblyReference.cache
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetTest\obj\Debug\NeuroNetTest.dll
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNetTest\obj\Debug\NeuroNetTest.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\bin\Debug\NeuroNetTest.dll
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\bin\Debug\NeuroNetTest.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\bin\Debug\NeuroNet.exe
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\bin\Debug\NeuroNet.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\obj\Debug\NeuroNetTest.csprojResolveAssemblyReference.cache
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\obj\Debug\NeuroNetTest.dll
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\obj\Debug\NeuroNetTest.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\bin\Debug\WPFToolkit.dll
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\bin\Debug\WPFToolkit.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNetTest\bin\Debug\Parser.dll
+F:\NeuroNet\NeuroNetTest\bin\Debug\NeuroNetTest.dll
+F:\NeuroNet\NeuroNetTest\bin\Debug\NeuroNetTest.pdb
+F:\NeuroNet\NeuroNetTest\bin\Debug\NeuroNet.exe
+F:\NeuroNet\NeuroNetTest\bin\Debug\NeuroNet.pdb
+F:\NeuroNet\NeuroNetTest\obj\Debug\NeuroNetTest.csprojResolveAssemblyReference.cache
+F:\NeuroNet\NeuroNetTest\obj\Debug\NeuroNetTest.dll
+F:\NeuroNet\NeuroNetTest\obj\Debug\NeuroNetTest.pdb
+F:\NeuroNet\NeuroNetTest\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+F:\NeuroNet\NeuroNetTest\bin\Debug\Parser.dll
+F:\NeuroNet\NeuroNetTest\bin\Debug\WPFToolkit.dll
+F:\NeuroNet\NeuroNetTest\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+F:\NeuroNet\NeuroNetTest\bin\Debug\WPFToolkit.pdb

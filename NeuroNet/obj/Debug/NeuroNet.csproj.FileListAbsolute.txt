@@ -1,0 +1,60 @@
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\bin\Debug\NeuroNet.exe
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\bin\Debug\NeuroNet.pdb
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\MainWindow.baml
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\MainWindow.g.cs
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\App.g.cs
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\NeuroNet_MarkupCompile.cache
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\NeuroNet.g.resources
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\NeuroNet.Properties.Resources.resources
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\NeuroNet.csproj.GenerateResource.Cache
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\NeuroNet.exe
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\NeuroNet.pdb
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\NeuroNet.csprojResolveAssemblyReference.cache
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\Style\LightTheme\Theme.baml
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\Style\VS2012Style.baml
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\App.baml
+C:\Users\Evgeniy\Documents\Visual Studio 2013\Projects\NeuroNet\NeuroNet\obj\Debug\Style\VS2012Style.g.cs
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\NeuroNet.exe
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\NeuroNet.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\bin\Debug\NeuroNet.exe
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\bin\Debug\NeuroNet.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\NeuroNet.csprojResolveAssemblyReference.cache
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\MainWindow.baml
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\Style\LightTheme\Theme.baml
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\Style\VS2012Style.baml
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\App.baml
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\MainWindow.g.cs
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\Style\VS2012Style.g.cs
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\App.g.cs
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\NeuroNet_MarkupCompile.cache
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\NeuroNet.g.resources
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\NeuroNet.Properties.Resources.resources
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\obj\Debug\NeuroNet.csproj.GenerateResource.Cache
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\bin\Debug\Parser.dll
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\bin\Debug\WPFToolkit.dll
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+C:\Users\Славик\Desktop\NeuroNet\NeuroNet\bin\Debug\WPFToolkit.pdb
+F:\NeuroNet\NeuroNet\obj\Debug\NeuroNet.exe
+F:\NeuroNet\NeuroNet\obj\Debug\NeuroNet.pdb
+F:\NeuroNet\NeuroNet\bin\Debug\NeuroNet.exe
+F:\NeuroNet\NeuroNet\bin\Debug\NeuroNet.pdb
+F:\NeuroNet\NeuroNet\bin\Debug\Parser.dll
+F:\NeuroNet\NeuroNet\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+F:\NeuroNet\NeuroNet\bin\Debug\WPFToolkit.pdb
+F:\NeuroNet\NeuroNet\obj\Debug\MainWindow.baml
+F:\NeuroNet\NeuroNet\obj\Debug\Style\LightTheme\Theme.baml
+F:\NeuroNet\NeuroNet\obj\Debug\Style\VS2012Style.baml
+F:\NeuroNet\NeuroNet\obj\Debug\App.baml
+F:\NeuroNet\NeuroNet\obj\Debug\MainWindow.g.cs
+F:\NeuroNet\NeuroNet\obj\Debug\Style\VS2012Style.g.cs
+F:\NeuroNet\NeuroNet\obj\Debug\App.g.cs
+F:\NeuroNet\NeuroNet\obj\Debug\NeuroNet_MarkupCompile.cache
+F:\NeuroNet\NeuroNet\obj\Debug\NeuroNet.g.resources
+F:\NeuroNet\NeuroNet\obj\Debug\NeuroNet.Properties.Resources.resources
+F:\NeuroNet\NeuroNet\obj\Debug\NeuroNet.csproj.GenerateResource.Cache
+F:\NeuroNet\NeuroNet\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+F:\NeuroNet\NeuroNet\bin\Debug\WPFToolkit.dll
+F:\NeuroNet\NeuroNet\obj\Debug\NeuroNet.csprojResolveAssemblyReference.cache
+F:\GitHub\NeuralNetwork\NeuroNet\obj\Debug\NeuroNet.exe
+F:\GitHub\NeuralNetwork\NeuroNet\obj\Debug\NeuroNet.pdb

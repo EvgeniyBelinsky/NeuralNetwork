@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroNet", "NeuroNet\NeuroNet.csproj", "{5CC6568F-C4DD-4F24-AC5D-9408218AF51F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroNetTest", "NeuroNetTest\NeuroNetTest.csproj", "{2923FFEE-63B9-48A1-A081-1CDDDFCCF16B}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "NeuroNetDiagramsUML", "NeuroNetDiagramsUML\NeuroNetDiagramsUML.modelproj", "{7C7F74AB-B44D-4BC5-9259-28E0B0BE4255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroNetDiagramsUMLLib", "NeuroNetDiagramsUMLLib\NeuroNetDiagramsUMLLib.csproj", "{48092A44-884A-4B22-B99B-001B7885248E}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Diagramma", "Diagramma\Diagramma.modelproj", "{CFED0D05-2DE8-41E1-BB73-72CCEF48E5EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagrammaLib", "DiagrammaLib\DiagrammaLib.csproj", "{ED0F2A0F-B034-4C0E-B3B8-A587A5D8F765}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC6568F-C4DD-4F24-AC5D-9408218AF51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC6568F-C4DD-4F24-AC5D-9408218AF51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC6568F-C4DD-4F24-AC5D-9408218AF51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC6568F-C4DD-4F24-AC5D-9408218AF51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2923FFEE-63B9-48A1-A081-1CDDDFCCF16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2923FFEE-63B9-48A1-A081-1CDDDFCCF16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2923FFEE-63B9-48A1-A081-1CDDDFCCF16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2923FFEE-63B9-48A1-A081-1CDDDFCCF16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7F74AB-B44D-4BC5-9259-28E0B0BE4255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7F74AB-B44D-4BC5-9259-28E0B0BE4255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7F74AB-B44D-4BC5-9259-28E0B0BE4255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7F74AB-B44D-4BC5-9259-28E0B0BE4255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48092A44-884A-4B22-B99B-001B7885248E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48092A44-884A-4B22-B99B-001B7885248E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48092A44-884A-4B22-B99B-001B7885248E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48092A44-884A-4B22-B99B-001B7885248E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFED0D05-2DE8-41E1-BB73-72CCEF48E5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFED0D05-2DE8-41E1-BB73-72CCEF48E5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFED0D05-2DE8-41E1-BB73-72CCEF48E5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFED0D05-2DE8-41E1-BB73-72CCEF48E5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0F2A0F-B034-4C0E-B3B8-A587A5D8F765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0F2A0F-B034-4C0E-B3B8-A587A5D8F765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0F2A0F-B034-4C0E-B3B8-A587A5D8F765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0F2A0F-B034-4C0E-B3B8-A587A5D8F765}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
