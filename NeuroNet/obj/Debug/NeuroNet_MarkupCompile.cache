@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-F:\NeuroNet\NeuroNet\obj\Debug\
+F:\GitHub\NeuralNetwork\NeuroNet\obj\Debug\
 NeuroNet
 none
 false
 DEBUG;TRACE
-F:\NeuroNet\NeuroNet\App.xaml
+F:\GitHub\NeuralNetwork\NeuroNet\App.xaml
 3382952618
 
 62101107974
-15-693544802
+15959187315
 MainWindow.xaml;Style\LightTheme\Theme.xaml;Style\VS2012Style.xaml;
 
 False

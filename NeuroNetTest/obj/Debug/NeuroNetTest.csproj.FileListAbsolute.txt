@@ -29,3 +29,15 @@ F:\NeuroNet\NeuroNetTest\bin\Debug\Parser.dll
 F:\NeuroNet\NeuroNetTest\bin\Debug\WPFToolkit.dll
 F:\NeuroNet\NeuroNetTest\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
 F:\NeuroNet\NeuroNetTest\bin\Debug\WPFToolkit.pdb
+F:\GitHub\NeuralNetwork\NeuroNetTest\bin\Debug\NeuroNetTest.dll
+F:\GitHub\NeuralNetwork\NeuroNetTest\bin\Debug\NeuroNetTest.pdb
+F:\GitHub\NeuralNetwork\NeuroNetTest\bin\Debug\NeuroNet.exe
+F:\GitHub\NeuralNetwork\NeuroNetTest\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+F:\GitHub\NeuralNetwork\NeuroNetTest\bin\Debug\Parser.dll
+F:\GitHub\NeuralNetwork\NeuroNetTest\bin\Debug\WPFToolkit.dll
+F:\GitHub\NeuralNetwork\NeuroNetTest\bin\Debug\NeuroNet.pdb
+F:\GitHub\NeuralNetwork\NeuroNetTest\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+F:\GitHub\NeuralNetwork\NeuroNetTest\bin\Debug\WPFToolkit.pdb
+F:\GitHub\NeuralNetwork\NeuroNetTest\obj\Debug\NeuroNetTest.csprojResolveAssemblyReference.cache
+F:\GitHub\NeuralNetwork\NeuroNetTest\obj\Debug\NeuroNetTest.dll
+F:\GitHub\NeuralNetwork\NeuroNetTest\obj\Debug\NeuroNetTest.pdb

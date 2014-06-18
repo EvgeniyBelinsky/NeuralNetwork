@@ -13,3 +13,8 @@ F:\NeuroNet\NeuroNetDiagramsUMLLib\bin\Debug\NeuroNetDiagramsUMLLib.pdb
 F:\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.dll
 F:\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.pdb
 F:\NeuroNet\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.csprojResolveAssemblyReference.cache
+F:\GitHub\NeuralNetwork\NeuroNetDiagramsUMLLib\bin\Debug\NeuroNetDiagramsUMLLib.dll
+F:\GitHub\NeuralNetwork\NeuroNetDiagramsUMLLib\bin\Debug\NeuroNetDiagramsUMLLib.pdb
+F:\GitHub\NeuralNetwork\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.csprojResolveAssemblyReference.cache
+F:\GitHub\NeuralNetwork\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.dll
+F:\GitHub\NeuralNetwork\NeuroNetDiagramsUMLLib\obj\Debug\NeuroNetDiagramsUMLLib.pdb
