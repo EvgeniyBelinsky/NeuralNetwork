@@ -10,3 +10,4 @@ F:\GitHub\NeuralNetwork\DiagrammaLib\bin\Debug\DiagrammaLib.dll
 F:\GitHub\NeuralNetwork\DiagrammaLib\bin\Debug\DiagrammaLib.pdb
 F:\GitHub\NeuralNetwork\DiagrammaLib\obj\Debug\DiagrammaLib.dll
 F:\GitHub\NeuralNetwork\DiagrammaLib\obj\Debug\DiagrammaLib.pdb
+F:\GitHub\NeuralNetwork\DiagrammaLib\obj\Debug\DiagrammaLib.csprojResolveAssemblyReference.cache
