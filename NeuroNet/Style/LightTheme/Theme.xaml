@@ -13,6 +13,38 @@
   mc:Ignorable="d"
   xmlns:d="http://schemas.microsoft.com/expression/blend/2008">
 
+    <Style x:Key="WinStyleTitleBarButton" TargetType="{x:Type Button}">
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Border x:Name="border" Background="Transparent" />
+                        <ContentPresenter />
+                    </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{DynamicResource DisabledForegroundBrush}" />
+                            <Setter TargetName="border" Property="Opacity" Value="0.7" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="#FFD89D1D" />
+                            <Setter TargetName="border" Property="Opacity" Value="1" />
+                            <Setter Property="Foreground" Value="#FFF" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <LinearGradientBrush x:Key="HoverShineBrush"  EndPoint="0.5,0.971" StartPoint="0.5,0.042">
+        <GradientStop Color="#B2FFAF00" Offset="1"/>
+        <GradientStop Color="#7FFFAF00" Offset="0"/>
+        <GradientStop Color="#99FFAF00" Offset="0.5"/>
+    </LinearGradientBrush>
 
     <!-- Здесь необходимо определить записи словаря ресурсов. -->
     <Style TargetType="{x:Type chartingToolkit:Chart}">
@@ -324,8 +356,8 @@
                                 <RowDefinition Height="246"/>
                             </Grid.RowDefinitions>
                             <visualizationToolkit:Title Content="{TemplateBinding Title}" Style="{TemplateBinding TitleStyle}" Margin="149,-5,149,0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FF838383" Template="{DynamicResource TitleControlTemplate}"/>
-                            
-                            <Grid Margin="0,25.28,0,0" Grid.Row="0" Grid.RowSpan="1">
+
+                            <Grid Margin="0,25.28,0,0" Grid.Row="0" Grid.RowSpan="1" Background="{x:Null}">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
@@ -426,12 +458,6 @@
         <GradientStop Color="#00FFFFFF" Offset="0.475" />
     </LinearGradientBrush>
 
-    <LinearGradientBrush x:Key="HoverShineBrush" EndPoint="0.5,0.971" StartPoint="0.5,0.042">
-        <GradientStop Color="#B2FFB900" Offset="1"/>
-        <GradientStop Color="#7FF9B900" Offset="0"/>
-        <GradientStop Color="#99FCC838" Offset="0.5"/>
-    </LinearGradientBrush>
-
     <LinearGradientBrush x:Key="PressedBorderBrush" EndPoint="0,1" StartPoint="0,0">
         <GradientStop Color="#444" Offset="0.0" />
         <GradientStop Color="#888" Offset="1.0" />
@@ -463,6 +489,7 @@
         <GradientStop Color="#DDDDDD" Offset="0.5"/>
         <GradientStop Color="#A0A0A0" Offset="1"/>
     </LinearGradientBrush>
+    <SolidColorBrush x:Key="ButtonNormalBorder" Color="#FF707070" />
 
     <ControlTemplate x:Key="ButtonTemplate" TargetType="{x:Type Button}">
         <ControlTemplate.Resources>
@@ -513,7 +540,8 @@
         <Grid x:Name="Grid">
             <Border x:Name="Background" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="3" />
             <Border x:Name="HoverBorder" Opacity="0" Background="{StaticResource HoverBrush}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="3" />
-            <Border x:Name="HoverShineBorder" Opacity="0" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="3" Background="{DynamicResource HoverShineBrush}" />
+            <Border x:Name="HoverShineBorder" Opacity="0"  BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="3" Background="{DynamicResource HoverShineBrush}" />
+
             <Border x:Name="PressedBorder" Opacity="0" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="3" Background="{StaticResource PressedBrush}" />
             <Border x:Name="ShineBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="3" Background="{DynamicResource ShineBrush}" Opacity="1" />
             <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" RecognizesAccessKey="True" />
@@ -2840,7 +2868,6 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <SolidColorBrush x:Key="ButtonNormalBorder" Color="#FF707070" />
 
     <Style TargetType="{x:Type ToggleButton}">
         <Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}" />

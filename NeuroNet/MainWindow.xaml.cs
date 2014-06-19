@@ -26,6 +26,8 @@ namespace NeuroNet
             InitializeComponent();
         }
 
+        PerceptronConstructor perceptron = new PerceptronConstructor();
+
         List<double> generateSignal(int count)
         {
             Random rand = new Random();
@@ -39,11 +41,6 @@ namespace NeuroNet
 
         private void goButton_Click(object sender, RoutedEventArgs e)
         {
-            PerceptronConstructor perceptron = new PerceptronConstructor();
-            perceptron.CountOutputNeurons = 2;
-            perceptron.Create(generateSignal(2));
-
-
             Parser.Parser.Variable VariableI;
             Parser.Parser parser = new Parser.Parser();
 
@@ -59,7 +56,7 @@ namespace NeuroNet
                 p.Add(new Point(parser.Calculate(), i));
             }
 
-
+            
 
             chart.DataContext = p;
         }
@@ -85,6 +82,22 @@ namespace NeuroNet
         private void titleBar_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.DragMove();
+        }
+
+        private void networkParametersMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            NetworkParametersWindow networkParameters = new NetworkParametersWindow();
+            NeuronNetworkArchitecture archtecture = new NeuronNetworkArchitecture();
+
+            if(networkParameters.ShowDialog() == true)
+            {
+                archtecture.CountInputNeurons = Convert.ToInt32(networkParameters.countInputNeurons.Text);
+                archtecture.CountOutputNeurons = Convert.ToInt32(networkParameters.countOutputNeurons.Text);
+                archtecture.CountHiddenLayers = Convert.ToInt32(networkParameters.countHiddenLayer.Text);
+                archtecture.CountNeuronsInLayer = Convert.ToInt32(networkParameters.countNeuronsInHiddenLayer.Text);
+
+                perceptron.Create(generateSignal(2), archtecture);
+            }
         }
     }
 }
